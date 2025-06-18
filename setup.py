@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='template_python',
-    version='0.0.1',
+    name='ls_hpc_tools',
+    version='0.0.0',
     author='Louie Slocombe',
     author_email='louies@hotmail.co.uk',
-    description='Template',
+    description='A repo containing some tools for running things on a HPC.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/LouieSlocombe/template_python',
-    packages=find_packages(include=['template_python', 'template_python.*']),
+    url='https://github.com/LouieSlocombe/ls_hpc_tools',
+    packages=find_packages(include=['ls_hpc_tools', 'ls_hpc_tools.*']),
     package_data={
-        'template_python': [
+        'ls_hpc_tools': [
             'data/*',
         ],
     },
